@@ -1,0 +1,13 @@
+server:
+  port: 9080
+
+spring:
+  application:
+    name: hefty-service
+
+eureka:
+  client:
+    enabled: true
+
+customerservice:
+  timeout: 2000
